@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header .grayLine{
+    background-color: #D9D9D9;
+    height: 20px;
+    width: 100%;
+}
+
+header .topContainer{
+    background-color: #F2B705;
+    height: 120px;
+}
+
+.logo{
+    margin-top: -70px;    
+}
+
+header p{
+    color: #B21A18;
+    font-size: 60px;
+    text-align: center;
+    margin-top: -220px;
+}
+
+header .topContainer .icons{
+    float: right;
+    margin-top: -120px;
+}
+
+header .topContainer .icons .userImg{
+    height: 120px;
+    margin-top: 10px;
+}
+
+header .topContainer .icons .lineImg{
+    height: 90px;
+}
+
+header .topContainer .icons .carImg{
+    height: 110px;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 755px) { /* MOBILE */ 
+
+    header .grayLine{
+        background-color: #D9D9D9;
+        height: 10px;
+        width: 100%;
+    }
+
+    header .topContainer{
+        background-color: #F2B705;
+        height: 100px;
+    }
+
+    .logo{
+        height: 150px;
+        margin-top: -40px;
+    }
+
+    header p{
+        font-size: 23px;
+        margin-top: -50px;
+        text-align: center;
+    }
+
+    header .topContainer .icons{
+        float: right;
+        margin-top: -110px;
+    }
+    
+    header .topContainer .icons .userImg{
+        height: 60px;
+    }
+    
+    header .topContainer .icons .lineImg{
+        height: 40px;
+    }
+    
+    header .topContainer .icons .carImg{
+        height: 50px;
+    }
+
+}
